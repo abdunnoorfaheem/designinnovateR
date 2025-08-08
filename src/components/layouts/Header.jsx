@@ -14,7 +14,7 @@ const Header = () => {
         <Flex className={"justify-between"}>
           <Image imgSrc={Logo} />
           <div className="">
-            <ul className="flex gap-x-6 text-[18px] font-semibold text-[#29313D]">
+            <ul className="flex gap-x-6 text-[18px] font-semibold text-[#29313D] font-openSans">
               <li>Home</li>
               <li>About</li>
               <li>Service</li>
@@ -23,7 +23,7 @@ const Header = () => {
               <li>Blog</li>
             </ul>
           </div>
-          <Button className={"px-[28px] py-[14px]"}>
+          <Button className={"px-[28px] py-[14px] font-nunito"}>
             Contact Us
           </Button>
         </Flex>
