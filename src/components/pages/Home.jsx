@@ -5,10 +5,10 @@ import Banner from '../layouts/Banner'
 const Home = () => {
   return (
     <>
-      <Header/>
+      
       <Banner/>
     </>
   )
 }
 
-export default Home
+export default Home;
